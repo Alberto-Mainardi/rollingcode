@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    height: fit-content;
+}
+
+form{
+    width: 50vw;
+    height: fit-content;
+}
+.form-control{
+    width: 35vw;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.banner{
+    position: absolute;
+    top: 900px;
+}
+.banner img{
+    width: 40vw;
+    position: absolute;
+    bottom: 0px;
+}
+#boton_footer{
+    background-color: #3B71CA;
+}
+#boton_footer:hover{
+    background-color: aliceblue;
+}
+

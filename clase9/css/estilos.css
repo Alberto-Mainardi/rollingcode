@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 49, 49);
+    margin: 0px;
+    padding: 30px;
+}
+header{
+    height: 100px;
+}
+main{
+    background-color: rgb(255, 200, 127);
+    padding: 30px;
+    border-radius: 50px;
+}
+nav{
+    padding: 0% 2%;
+}
+#menu{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+#menu li{
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 15px 0px 15px 0px;
+} 
+#menu li:hover{
+    box-shadow: -10px 10px 8px gainsboro;
+    border-radius: 15px 0px 15px 0px;
+}
+#menu li a{
+    color: white;
+    /* background-color: green; */
+    width: 150px;
+    height: 50px;
+    margin: 0px 25px;
+    text-decoration: none;
+
+}
+#uno{
+    background-color: gainsboro;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* flex-direction: row-reverse; */
+}
+#img4{
+    order: 1;
+    align-self: stretch;
+}
+#img3{
+    order: 2;
+    align-self: flex-end;
+}
+#img1{
+    order: 3;
+    align-self: center;
+}
+#img2{
+    order: 4;
+    align-self: flex-start;
+    padding-top: 150px;
+}
+article{
+    background-color: aqua;
+}

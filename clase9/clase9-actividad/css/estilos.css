@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+    scroll-behavior: smooth;
+    scroll-margin: 100px;
+
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(0,0,30,1) 0%, rgba(0,0,6,1) 45%, rgba(0,0,140,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,20,1) 0%, rgba(0,0,40,1) 50%, rgba(0,0,20,1) 100%);
+}
+header{
+    /* background-color: rgb(0, 0, 20); */
+    background-image: radial-gradient(rgb(0, 0, 80), rgb(0, 0, 20));
+    height: clamp(600px, 130vh, 1300px)
+}
+main{
+    background-color: rgb(0, 0, 40);
+    padding: 10px;
+    border-radius: 25px;
+    margin: 2%;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3vw 0px 10px;
+    background-color: rgb(0, 0, 30, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+footer{
+    height: 325px;
+    max-height: 325px;
+    position: relative;
+    border-top: solid 2px aliceblue;
+}
+a{
+    height: fit-content;
+}
+footer #logo_footer{
+    position: absolute;
+    left: 42.5%;
+    top: 50px;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform .3s;
+}
+footer #logo_footer:hover{
+    transform: scale(1.2);
+}
+footer ul{
+    display: flex;
+    min-height: 150px;
+    width: 100%;
+    padding: 0px;
+}
+footer .menu{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    max-height: 40%;
+    justify-content: flex-start;
+    
+}
+footer .menu a{
+    opacity: 60%;
+    
+}
+#footer_menu_container{
+    /* background-color: rgb(0, 68, 68); */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+footer p{
+    color: rgb(124, 124, 124);
+    position: absolute;
+    left: 45%;
+    top: 85%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    list-style-type: none;
+}
+/* .menu li:hover{
+    box-shadow: 10px 5px 5px rgb(161, 79, 49);
+} */
+.menu li a{
+    padding: 5px;
+    margin: 0px 15px;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: transform .2s;
+}
+.menu li a:hover{
+    color: rgb(0, 100, 255);
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+#banner{
+    height: 100%;
+    padding-top: 12.70%;  
+}
+#banner img{
+    display: block;
+    width: 100%;
+
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50%;
+    transition: transform .5s;
+}
+#banner img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#banner h2{
+    font-size: 2.5vw;
+    color: aliceblue;
+    text-shadow: 0px 0px 4px aliceblue;
+    text-align: center;
+}
+#logo{
+    width: 225px;
+    transition: transform .3s;
+}
+#logo:hover{
+    transform: scale(1.2);
+}
+
+nav form{
+    transition: transform .3s;
+}
+nav form:hover{
+    transform: scale(1.1);
+}
+nav input{
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 70);
+    border-bottom: solid rgb(0, 0, 199);
+    border-radius: 50px;
+}
+nav input:hover{
+    background-color: rgb(0, 0, 80);
+}
+nav button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+#search_button{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: -45px;
+}
+section{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 5.75%;
+}
+section h2{
+    background-image: radial-gradient(rgb(0,0,110), transparent);
+}
+.div_seccion{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+article{
+    margin: 0.785vw;
+    /* width: 330px; */
+    width: clamp(235px, 17.2vw, 500px);
+    /* height: 280px; */
+    height: clamp(200px, 280px, 424px);
+    max-height: 424px;
+    transition: transform .3s;
+}
+.title_article{
+    height: 50px;
+}
+article img{
+    width: clamp(150px, 17.2vw, 500px);
+    box-shadow: 10px 10px 5px rgb(0, 0, 10);
+}
+article:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

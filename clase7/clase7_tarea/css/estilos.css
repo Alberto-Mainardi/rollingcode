@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px
+}
+body{
+    font-family: 'Franklin Gothic Demi', Arial, sans-serif;
+    margin: 0px;
+    background-color: #f5f5f5;
+    max-width: 1920px;
+}
+header{
+    background-image: url(../img/platterjpg.jpg);
+    min-height: 1280px
+}
+main{
+    text-align: justify;
+}
+#main_inicio{
+    min-height: 600px;
+}
+#main_contacto{
+    max-height: 0;
+}
+
+aside{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    top: 87%;
+    left: 92%;
+    background-color: rgb(0, 175, 175);
+    padding: 10px 15px;
+    border-radius: 50%;
+    z-index: 12;
+}
+aside:hover{
+    cursor: pointer;
+}
+main p{
+    margin: 30px;
+}
+header div{
+    min-height: 100px;
+    max-height: 100px;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+header .logo{
+    height: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+header nav ul{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+header nav li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#titulo_inicio{
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+h1{
+    font-size: 70px;
+    margin: 15px;
+    letter-spacing: 1px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#titulo_inicio hr{
+    width: 1400px;
+    background-color: whitesmoke;
+}
+#titulo_inicio p{
+    position: relative;
+    width: 600px;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 22px;
+}
+
+#titulo_contacto{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+#titulo_contacto hr{
+    width: 1400px;
+    background-color: whitesmoke;
+}
+#titulo_contacto p{
+    position: relative;
+    width: 600px;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 22px;
+}
+
+#chef{
+    position: relative;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer{
+    min-height: 200px;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 11;
+}
+footer .logo{
+    position: absolute;
+    height: 100px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+footer nav{
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%,-50%);
+    width: fit-content
+}
+footer nav li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin: 20px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+footer p{
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(180, 180, 180);
+}
+#caja_contacto{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    min-height: 780px;
+}
+#contenido_contacto{
+    position: relative;
+    top: -130px;
+    background-color: #f5f5f5;
+    /* min-height: 360px; */
+    min-height: 565px;
+    z-index: 10;
+    font-size: large;
+}
+#contenido_contacto section{
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#contenido_contacto article{
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 550px
+}
+#contenido_contacto #ubicacion{
+    position: absolute;
+    left: 600px;
+}
+#contenido_contacto #contacto{
+    position: absolute;
+    line-height: 80px;
+    font-size: x-large;
+}
+#contenido_contacto ul{
+    list-style-type: none;
+}
+#contenido_contacto li{
+    margin-left: 60px;
+}
+.div_contacto{
+    min-height: 50px;
+}
+#contenido_contacto img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    float: left;
+    border-radius: 50%;
+}
+/* #telefono{
+    list-style-image: url(https://images.vexels.com/media/users/3/204690/isolated/preview/ccb652d1ca11908eeb950eb670c02619-telefono-celular-sonando-icono-azul.png);
+} */
+/* #svg_bottom{
+    position: relative;
+    top: -210px;
+    z-index: 9;
+} */
+

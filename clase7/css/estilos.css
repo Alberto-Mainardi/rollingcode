@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 220, 255);
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px;
+}
+main{
+    font-size: 40px;
+    background-color: darkcyan;
+    border-radius: 30px;
+    padding: 15px;
+}
+section{
+    font-size: 25px;
+}
+/* Medidas absolutas */
+#absoluta{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 185, 233);
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Medidas relativas */
+/* rem toma como referencia el elemento root del padre */
+#relativa{
+    width: 2rem;
+    font-size: 4rem;
+}
+/* em toma como referencia el padre inmediato */
+#relativa2{
+    width: 4em;
+    font-size: 2em;
+}
+.relativa3{
+    background-color: coral;
+    width: 100vw;
+    height: 100px;
+}
+#min{
+    background-color: aquamarine;
+    width: 300px;
+    min-height: 100px;
+    max-height: 250px;
+}
+#min-2{
+    height: 350px;
+    width: 100%;
+}
+.box{
+    width: 33%;
+    height: 500px;
+    background-color: brown;
+    border-radius: 20px;
+    float: left;
+    padding: 80px;
+    
+}
+
+.box:hover::after{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+    content: "Puede pasar...";
+}
+#avatar{
+    width: 90px;
+    cursor: pointer
+}
+#avatar:hover{
+    display: none;
+}
+#main_avatar{
+    min-height: 126px;
+}
+.tipos{
+    position: absolute;
+    top: 1px;
+    left: 350px;
+    background-color: blanchedalmond;
+}
+#menu{
+    position: fixed;
+    top: 0px;
+}
+#main_position{
+    margin-top: 200px;
+}
+#alturajaja{
+    min-height: 3000px;
+}
+#sticky{
+    position: sticky;
+}

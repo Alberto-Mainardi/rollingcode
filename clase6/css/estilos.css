@@ -1,0 +1,108 @@
+/* selector:seudoclase{ propiedad:valor } */
+a:hover{
+    background-color: black;
+    color: bisque;
+}
+/* El link no ha sido visitado */
+a:link{
+    background-color: aquamarine;
+    color: brown;
+}
+/* El link ya ha sido visitado */
+a:visited{
+    background-color: red;
+    color: whitesmoke;
+}
+a:active{
+    background-color: blue;
+    color: aliceblue;
+}
+h1{
+    background-color: aqua;
+    color: brown;
+    width: 40%;
+    height: 60px;
+    margin: 50px  10px 50px 200px;
+    margin-bottom: 0px;
+    padding: 50px 20px 30px 70px;
+    border-bottom: 3px solid black;
+}
+/* Selector de etiqueta */
+article{
+    min-height: 800px;
+    background-color: rgb(195, 255, 187);
+}
+/* Selector de ID */
+#atributos{
+    background-color: aquamarine;
+}
+ul{
+    list-style-type: none;
+    padding: 20px;
+
+}
+#lista li{
+    background-color: azure;
+    color: brown;
+    padding: 5px 30px;
+    width: 30%;
+    text-align: center;
+    border-bottom: 5px dotted gray;
+}
+/* pseudoelemento */
+#lista li::first-letter{
+    color: black;
+    font-size: xx-large;
+    background-color: rgb(220, 182, 255);
+    padding: 5px;
+}
+/* Selector de clases */
+p{
+    background-color: azure;
+    color: brown;
+    padding: 50px;
+}
+p::first-line{
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 100px;
+}
+p::after{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    background-color: rgb(240, 180, 255);
+    width: 300px;
+    height: 80px;
+    content: "Y yo soy el despues...";
+}
+p::before{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background-color: rgb(155, 154, 255);
+    width: 300px;
+    height: 80px;
+    content: "Soy el antes";
+    display: flex;
+}
+/* Selector de clase */
+.divs{
+    background-color: rgb(80, 255, 91);
+}
+#uno{
+    background-color: blue;
+}
+#dos{
+    background-color: red;
+}
+#tres{
+    background-color: coral;
+}
+.divClass{
+    width: 30%;
+    height: 600px;
+    margin: 15px;
+    border-radius: 10%;
+    float: inline-start;
+}

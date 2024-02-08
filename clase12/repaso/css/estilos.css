@@ -1,0 +1,12 @@
+.menu-fixed{
+
+    position: fixed;
+    background-color: grey;
+
+}
+article{
+    text-align: justify;
+}
+.w-10{
+    width: 20px;
+}
